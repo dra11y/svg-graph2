@@ -5,7 +5,7 @@
 # setup of the dev toolchain including rake and juwelier will be done at a later stage.
 
 
-require './lib/svggraph'
+require './lib/version'
 
 Gem::Specification.new do |s|
   s.name = %q{svg-graph}
