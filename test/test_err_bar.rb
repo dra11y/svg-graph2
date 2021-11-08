@@ -1,4 +1,4 @@
-require_relative '../lib/SVG/Graph/ErrBar'
+require './../lib/SVG/Graph/ErrBar'
 
 fields = %w(Jan Feb);
 myarr1_mean = 10

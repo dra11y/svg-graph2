@@ -1,5 +1,5 @@
 require "test/unit"
-require_relative '../lib/SVG/Graph/DataPoint'
+require './../lib/SVG/Graph/DataPoint'
 
 class TestDataPoint < Test::Unit::TestCase
   def setup

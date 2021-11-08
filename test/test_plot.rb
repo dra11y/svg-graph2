@@ -1,6 +1,6 @@
 require 'test/unit'
-require_relative '../lib/svggraph'
-require_relative '../lib/SVG/Graph/DataPoint'
+require './../lib/svggraph'
+require './../lib/SVG/Graph/DataPoint'
 
 class TestSvgGraphPlot < Test::Unit::TestCase
 

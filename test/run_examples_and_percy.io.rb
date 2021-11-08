@@ -1,5 +1,5 @@
 # executes all examples
-require_relative '../lib/svggraph'
+require './../lib/svggraph'
 puts SVG::Graph::VERSION
 
 list = Dir.glob(File.expand_path("../examples/*.rb", __dir__))

@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../lib/svggraph'
+require './../lib/svggraph'
 
 class TestGraph < Test::Unit::TestCase
   class DummyGraph < SVG::Graph::Graph
@@ -13,7 +13,7 @@ class TestGraph < Test::Unit::TestCase
       []
     end
   end
-  
+
   def test_to_iruby
     graph = DummyGraph.new({})
     graph.add_data({ data: [1,2,3] })

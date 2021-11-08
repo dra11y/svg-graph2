@@ -1,6 +1,6 @@
 require 'rexml/document'
-require_relative 'Graph'
-require_relative 'BarBase'
+require './Graph'
+require './BarBase'
 
 module SVG
   module Graph

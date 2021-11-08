@@ -1,5 +1,5 @@
-require_relative '../lib/svggraph'
-require_relative '../lib/SVG/Graph/DataPoint'
+require './../lib/svggraph'
+require './../lib/SVG/Graph/DataPoint'
 require 'minitest/autorun'
 require 'minitest/reporters'
 

@@ -1,4 +1,4 @@
-require_relative '../lib/SVG/Graph/Bar'
+require './../lib/SVG/Graph/Bar'
 
 x_axis = ['1-10', '10-30', '30-50', '50-70', 'older']
 

@@ -1,4 +1,4 @@
-require_relative '../lib/svggraph'
+require './../lib/svggraph'
 require 'minitest/autorun'
 require 'minitest/reporters'
 
