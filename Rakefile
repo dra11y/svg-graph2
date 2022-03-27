@@ -8,7 +8,7 @@
 #
 #Hoe.plugin :git
 #
-#require './lib/svggraph'
+#require_relative './lib/svggraph'
 #
 #Hoe.spec 'svg-graph' do
 #  self.version=SVG::Graph::VERSION

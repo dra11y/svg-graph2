@@ -1,7 +1,7 @@
-require './../lib/SVG/Graph/BarHorizontal'
-require './../lib/SVG/Graph/Bar'
-require './../lib/SVG/Graph/Line'
-require './../lib/SVG/Graph/Pie'
+require_relative './../lib/SVG/Graph/BarHorizontal'
+require_relative './../lib/SVG/Graph/Bar'
+require_relative './../lib/SVG/Graph/Line'
+require_relative './../lib/SVG/Graph/Pie'
 
 def gen klass, args, title, fields, female_data, male_data
   args[ :width ] = 640
@@ -64,4 +64,3 @@ File.open( File.expand_path("../data.txt", __FILE__ )) { |fin|
     }
   end
 }
-

@@ -1,5 +1,5 @@
 require 'test/unit'
-require './../lib/svggraph'
+require_relative './../lib/svggraph'
 
 class TestGraph < Test::Unit::TestCase
   class DummyGraph < SVG::Graph::Graph

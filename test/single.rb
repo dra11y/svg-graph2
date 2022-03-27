@@ -1,7 +1,7 @@
-require './../lib/SVG/Graph/BarHorizontal'
-require './../lib/SVG/Graph/Bar'
-require './../lib/SVG/Graph/Line'
-require './../lib/SVG/Graph/Pie'
+require_relative './../lib/SVG/Graph/BarHorizontal'
+require_relative './../lib/SVG/Graph/Bar'
+require_relative './../lib/SVG/Graph/Line'
+require_relative './../lib/SVG/Graph/Pie'
 
 
 File.open( "data.txt" ) { |fin|
@@ -30,4 +30,3 @@ File.open( "data.txt" ) { |fin|
     })
   puts graph.burn
 }
-

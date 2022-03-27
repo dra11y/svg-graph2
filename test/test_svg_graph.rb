@@ -1,5 +1,5 @@
-require './../lib/svggraph'
-require './../lib/SVG/Graph/DataPoint'
+require_relative './../lib/svggraph'
+require_relative './../lib/SVG/Graph/DataPoint'
 require 'minitest/autorun'
 require 'minitest/reporters'
 
@@ -65,4 +65,3 @@ class TestSvgGraph < Minitest::Test
   end # test_pie_100_percent
 
 end
-

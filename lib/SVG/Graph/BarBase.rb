@@ -1,5 +1,5 @@
 require 'rexml/document'
-require './Graph'
+require_relative './Graph'
 
 module SVG
   module Graph

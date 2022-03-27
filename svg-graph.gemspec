@@ -5,7 +5,7 @@
 # setup of the dev toolchain including rake and juwelier will be done at a later stage.
 
 
-require './lib/version'
+require_relative './lib/version'
 
 Gem::Specification.new do |s|
   s.name = %q{svg-graph}
@@ -75,4 +75,3 @@ the Perl original at all.
   #  s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
   #end
 end
-
